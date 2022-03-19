@@ -4,6 +4,8 @@
     package="de.danoeh.antennapod"
     android:installLocation="auto">
 
+    <profileable android:shell="true"/>
+
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
